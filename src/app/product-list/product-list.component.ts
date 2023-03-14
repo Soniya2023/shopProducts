@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import productData from 'C:/shoppingProducts/app/src/products.json'; 
+import productData from '../model/products.json';
 import { CartService } from '../cart.service';
 
 import { Observable } from 'rxjs';
